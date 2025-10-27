@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Env files
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# Build outputs
+frontend/.next/
+frontend/out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Hardhat/Artifacts/Cache
+artifacts/
+cache/
+
+deployments/*/solcInputs/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Others
+fhevmTemp/
